@@ -1,0 +1,52 @@
+{
+  "Purpose": "Tooling verification only; these are not experiment intervention outcomes.",
+  "IdentityDiffPassed": true,
+  "AddedModifiedDeletedDiffPassed": true,
+  "ExpectedChangedModules": 4,
+  "ExpectedOutsideOwner": 3,
+  "ExpectedCP": 0.75,
+  "ActualCP": 0.75,
+  "BaselineNegativeProbes": [
+    {
+      "Design": "processing",
+      "Intervention": "journal",
+      "BaselineRejectedAsExpected": true
+    },
+    {
+      "Design": "processing",
+      "Intervention": "layout",
+      "BaselineRejectedAsExpected": true
+    },
+    {
+      "Design": "processing",
+      "Intervention": "schema",
+      "BaselineRejectedAsExpected": true
+    },
+    {
+      "Design": "processing",
+      "Intervention": "policy",
+      "BaselineRejectedAsExpected": true
+    },
+    {
+      "Design": "hiding",
+      "Intervention": "journal",
+      "BaselineRejectedAsExpected": true
+    },
+    {
+      "Design": "hiding",
+      "Intervention": "layout",
+      "BaselineRejectedAsExpected": true
+    },
+    {
+      "Design": "hiding",
+      "Intervention": "schema",
+      "BaselineRejectedAsExpected": true
+    },
+    {
+      "Design": "hiding",
+      "Intervention": "policy",
+      "BaselineRejectedAsExpected": true
+    }
+  ],
+  "RecordedUtc": "2026-10-30T20:00:32.6043856Z"
+}

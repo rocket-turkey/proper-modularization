@@ -1,0 +1,6 @@
+{
+  "journal": {"processing":"processing/WriteReleaseLog.psm1", "hiding":"hiding/DeploymentJournal.psm1"},
+  "layout": {"processing":"processing/CopyRelease.psm1", "hiding":"hiding/ArtifactStore.psm1"},
+  "schema": {"processing":"processing/ReadRelease.psm1", "hiding":"hiding/ReleaseManifest.psm1"},
+  "policy": {"processing":"processing/ValidateRelease.psm1", "hiding":"hiding/DeploymentPolicy.psm1"}
+}

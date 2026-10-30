@@ -1,0 +1,11 @@
+﻿{
+    "Design":  "hiding",
+    "PowerShell":  "5.1.26100.9711",
+    "Pester":  "3.4.0",
+    "Passed":  32,
+    "Failed":  0,
+    "Skipped":  0,
+    "Total":  32,
+    "DurationSeconds":  13.2850884,
+    "RecordedUtc":  "2026-10-30T20:07:40.6076199Z"
+}

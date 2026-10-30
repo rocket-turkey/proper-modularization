@@ -1,0 +1,34 @@
+<testsuite name="hiding" tests="32" failures="0">
+  <testcase name="exports exactly the five public commands" time="0.8631995" />
+  <testcase name="validates a real manifest and hashes without creating a workspace" time="0.3403251" />
+  <testcase name="reports empty status and history without writes" time="0.196208" />
+  <testcase name="installs exact payload bytes and returns the public result" time="0.4211475" />
+  <testcase name="records chronological history and current identity" time="0.9248601" />
+  <testcase name="rejects a duplicate ID without changing any workspace file" time="0.5487177" />
+  <testcase name="rejects different applications in one workspace" time="0.4496196" />
+  <testcase name="rejects a wrong hash before writing" time="0.1468552" />
+  <testcase name="rejects malformed JSON" time="0.0963753" />
+  <testcase name="rejects a missing manifest" time="0.0931106" />
+  <testcase name="rejects a missing source" time="0.099011" />
+  <testcase name="rejects an invalid release ID" time="0.1040222" />
+  <testcase name="rejects an empty application" time="0.1033918" />
+  <testcase name="rejects an empty artifact list" time="0.1144148" />
+  <testcase name="rejects source traversal" time="0.1455991" />
+  <testcase name="rejects target traversal" time="0.1270281" />
+  <testcase name="rejects absolute targets" time="0.110375" />
+  <testcase name="rejects duplicate targets case insensitively" time="0.1917493" />
+  <testcase name="rejects a file and directory target collision" time="0.1371497" />
+  <testcase name="rejects malformed SHA-256 fields" time="0.1166302" />
+  <testcase name="replaces the active tree without stale files" time="0.5464926" />
+  <testcase name="rolls back payload, status, and history together" time="1.0286585" />
+  <testcase name="supports repeated rollback down the active lineage" time="1.6264237" />
+  <testcase name="rejects rollback on an empty or single release workspace" time="0.3901167" />
+  <testcase name="rejects reuse of an ID even after rollback" time="0.8519482" />
+  <testcase name="can install a new ID after rollback" time="1.0209279" />
+  <testcase name="preserves a deployed workspace on later validation failure" time="0.3730877" />
+  <testcase name="rejects an unmanaged destination without altering it" time="0.1782046" />
+  <testcase name="accepts a pre-existing empty destination" time="0.2428029" />
+  <testcase name="rejects a destination that is a file" time="0.1278313" />
+  <testcase name="keeps the original tree after an injected artifact copy failure" time="0.9552426" />
+  <testcase name="keeps the original tree after an injected journal write failure" time="0.6135619" />
+</testsuite>

@@ -1,0 +1,11 @@
+﻿{
+    "Design":  "processing",
+    "PowerShell":  "5.1.26100.9711",
+    "Pester":  "3.4.0",
+    "Passed":  32,
+    "Failed":  0,
+    "Skipped":  0,
+    "Total":  32,
+    "DurationSeconds":  15.378608199999999,
+    "RecordedUtc":  "2026-10-30T20:07:24.1180089Z"
+}

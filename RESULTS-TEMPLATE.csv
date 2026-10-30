@@ -1,0 +1,9 @@
+Intervention,Design,Owner,ChangedFiles,ChangedModules,OutsideOwner,OtherModules,CP,AddedLines,DeletedLines,BaselineLines,Minutes,PublicApiChanges,FirstRunFailures,FinalFailures,AcceptancePassed,Notes
+journal,processing,WriteReleaseLog,,,,4,,,,,,,,,,
+journal,hiding,DeploymentJournal,,,,4,,,,,,,,,,
+layout,processing,CopyRelease,,,,4,,,,,,,,,,
+layout,hiding,ArtifactStore,,,,4,,,,,,,,,,
+schema,processing,ReadRelease,,,,4,,,,,,,,,,
+schema,hiding,ReleaseManifest,,,,4,,,,,,,,,,
+policy,processing,ValidateRelease,,,,4,,,,,,,,,,
+policy,hiding,DeploymentPolicy,,,,4,,,,,,,,,,

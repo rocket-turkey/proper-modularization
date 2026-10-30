@@ -1,0 +1,10 @@
+{
+  "Purpose": "Metrics tooling verification only; these are not experiment intervention outcomes.",
+  "IdentityDiffPassed": true,
+  "AddedModifiedDeletedDiffPassed": true,
+  "ExpectedChangedModules": 4,
+  "ExpectedOutsideOwner": 3,
+  "ExpectedCP": 0.75,
+  "ActualCP": 0.75,
+  "RecordedUtc": "2026-10-30T20:07:46.6083631Z"
+}

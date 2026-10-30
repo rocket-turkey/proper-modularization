@@ -1,0 +1,19 @@
+{
+  "releaseId": "release-3",
+  "application": "SampleApp",
+  "metadata": {
+    "environment": "local"
+  },
+  "artifacts": [
+    {
+      "source": "payload/app.txt",
+      "target": "app.txt",
+      "sha256": "ec1db2cb6db505ca211057ad87ebc604654ec84869aa26a063110c6def9dc311"
+    },
+    {
+      "source": "payload/config/settings.json",
+      "target": "config/settings.json",
+      "sha256": "432419f1eaf212eb9a2d3ad7a3c389f1d52e3d48e19888d0acc2716ee5bfa507"
+    }
+  ]
+}
